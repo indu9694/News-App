@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    padding: 0;
+
+}
+p{
+    font-size: small;
+}
+main {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 20px; */
+}
+article {
+    padding: 5px;
+    display: flex;
+    width: 22%;
+    /* padding: 20px; */
+}
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    margin: 20px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    padding: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0px;
+    /* margin-top: 30%; */
+}
+.ft1{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    padding: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0px;
+    /* margin-top: 30%; */
+}
+.head{
+    text-align: center;
+    text-decoration: underline;
+}
+article a{
+    height: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #e5e7eb;
+    display: flex;
+    text-decoration: none; 
+    color: black;
+}
+.content{
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+article a:hover{
+    background-color: #858080;
+}
+.art-img{
+    width: 100%;
+    height: 30%;
+    border-radius: 9%;
+    padding: 5px;
+    border-color: black;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+.header-content {
+    display: flex;
+    flex-direction: inline;
+    align-items: center;
+    justify-content: space-between;
+}
+.auth-buttons{
+    display: flex;
+    justify-content: center;
+    align-items:center; 
+}
+.auth-button{
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: orange;
+    border-radius: 8%;
+    color: white;
+}
+.auth-button:hover{
+    background-color: #d52020;
+}
+.card {
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; 
+    margin: 5px;
+    width: 23%;
+    height:310px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+  
+.card img {
+    width: 310px;
+    height: 200px;
+
+    border-radius: 5px 5px 0 0;
+}
+
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.container {
+    padding: 2px 16px;  
+}
+.card-layout{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+.world{
+  background-color: bisque;
+}
